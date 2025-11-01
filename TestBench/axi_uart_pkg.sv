@@ -1,0 +1,19 @@
+`include "global_pkg.sv"
+package axi_uart_pkg;
+import global_pkg::*;
+`include "uvm_pkg.sv"
+`include "uvm_macros.svh"
+`include "axi_uart_seq_item.sv"
+`include "axi_uart_sequence.sv"
+`include "axi_uart_sequencer.sv"
+`include "axi_uart_driver.sv"
+`include "axi_uart_active_monitor.sv"
+`include "axi_uart_passive_monitor.sv"
+`include "axi_uart_active_agent.sv"
+`include "axi_uart_passive_agent.sv"
+`include "axi_uart_subscriber.sv"
+//`include "scoreboard.sv"
+`include "axi_uart_scoreboard.sv"
+`include "axi_uart_environment.sv"
+`include "axi_uart_test.sv"
+endpackage
